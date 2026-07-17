@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experiences": "Experience",
+    "contact": "Contact",
+    "contactButton": "Contact me"
+  },
+  "Home": {
+    "availability": "Open to full-time opportunities in Data",
+    "titleStart": "I transform data into",
+    "titleHighlight": "valuable business solutions",
+    "description": "Specialized in Data and Artificial Intelligence, I build data pipelines, analytical solutions, predictive models and dashboards that support business decision-making.",
+    "projectsButton": "View my projects",
+    "cvButton": "Download my résumé",
+    "profile": "Profile",
+    "jobTitle": "Data Analyst / Data Engineer",
+    "educationLabel": "Education",
+    "education": "Epitech — Data & AI specialization",
+    "locationLabel": "Location",
+    "location": "France",
+    "objectiveLabel": "Objective",
+    "objective": "Full-time position in Data Analytics, BI or Data Engineering",
+    "domainsTitle": "My areas of expertise",
+    "domainsDescription": "A comprehensive approach covering data preparation, storage, analysis and visualization.",
+    "domains": {
+      "dataEngineering": {
+        "title": "Data Engineering",
+        "description": "Building reliable, automated and tested data pipelines."
+      },
+      "businessIntelligence": {
+        "title": "Business Intelligence",
+        "description": "Designing Power BI dashboards and business-oriented performance indicators."
+      },
+      "machineLearning": {
+        "title": "Machine Learning",
+        "description": "Developing and evaluating predictive models with Python."
+      },
+      "softwareEngineering": {
+        "title": "Software Engineering",
+        "description": "Building structured projects with Git, Docker, automated testing and CI/CD."
+      }
+    }
+  }
+}

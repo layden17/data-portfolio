@@ -1,0 +1,47 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "experiences": "Expériences",
+    "contact": "Contact",
+    "contactButton": "Me contacter"
+  },
+  "Home": {
+    "availability": "Recherche d’un CDI dans les métiers de la Data",
+    "titleStart": "Je transforme les données en",
+    "titleHighlight": "solutions utiles aux entreprises",
+    "description": "Spécialisé en Data et Intelligence Artificielle, je développe des pipelines de données, des analyses, des modèles prédictifs et des dashboards permettant de faciliter la prise de décision.",
+    "projectsButton": "Voir mes projets",
+    "cvButton": "Télécharger mon CV",
+    "profile": "Profil",
+    "jobTitle": "Data Analyst / Data Engineer",
+    "educationLabel": "Formation",
+    "education": "Epitech — spécialisation Data & IA",
+    "locationLabel": "Localisation",
+    "location": "France",
+    "objectiveLabel": "Objectif",
+    "objective": "CDI en Data Analytics, BI ou Data Engineering",
+    "domainsTitle": "Mes domaines de compétence",
+    "domainsDescription": "Une approche complète couvrant la préparation, le stockage, l’analyse et la visualisation des données.",
+    "domains": {
+      "dataEngineering": {
+        "title": "Data Engineering",
+        "description": "Création de pipelines de données fiables, automatisés et testés."
+      },
+      "businessIntelligence": {
+        "title": "Business Intelligence",
+        "description": "Conception de dashboards Power BI et d’indicateurs orientés métier."
+      },
+      "machineLearning": {
+        "title": "Machine Learning",
+        "description": "Développement et évaluation de modèles prédictifs en Python."
+      },
+      "softwareEngineering": {
+        "title": "Software Engineering",
+        "description": "Projets structurés avec Git, Docker, tests automatisés et CI/CD."
+      }
+    }
+  }
+}
