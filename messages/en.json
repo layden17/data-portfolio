@@ -43,5 +43,111 @@
         "description": "Building structured projects with Git, Docker, automated testing and CI/CD."
       }
     }
+  },
+    "Projects": {
+    "badge": "Portfolio",
+    "title": "My Data & AI projects",
+    "description": "My projects are currently under development and will be added progressively.",
+    "comingSoonTitle": "Projects coming soon",
+    "comingSoonDescription": "I am currently working on several projects in Data Engineering, Business Intelligence and Artificial Intelligence. Demos, architectures and GitHub repositories will be published soon."
+    },
+    "Experiences": {
+  "badge": "Professional background",
+  "title": "Experience at the intersection of technology, business operations and client relations.",
+  "description": "My background includes SaaS deployment, functional analysis, customer support and web application development.",
+  "summary": {
+    "label": "Main experience",
+    "value": "2 years in a SaaS environment",
+    "description": "International apprenticeship in e-commerce, logistics and supply chain."
+  },
+  "status": {
+    "completed": "Completed experience",
+    "previous": "Previous experience"
+  },
+  "items": {
+    "anchanto": {
+      "period": "2024 – 2026",
+      "title": "Junior Deployment Consultant",
+      "organization": "Anchanto — Apprenticeship",
+      "description": "Contributed to the deployment and ongoing support of SaaS solutions for e-commerce, logistics and supply chain operations. Worked with OMS, WMS and OXM platforms while collaborating with French clients and international technical and functional teams.",
+      "missions": {
+        "deployment": "Configured and deployed OMS, WMS and OXM solutions.",
+        "testing": "Performed functional testing and verified operational flows before production.",
+        "support": "Analyzed and monitored customer incidents using Zendesk and Jira.",
+        "product": "Formalized product improvement requests using Aha!.",
+        "localization": "Adapted product interfaces for the French market using Crowdin and JSON files.",
+        "accountManagement": "Monitored existing accounts, prioritized incidents and coordinated internal actions."
+      }
+    },
+    "realEstate": {
+      "period": "May – September 2023",
+      "title": "Web Developer",
+      "organization": "Le Pro de l’Immo",
+      "description": "Analyzed client requirements, developed website features, deployed the application and verified its proper operation after launch."
+    },
+    "stockManagement": {
+      "period": "January – April 2023",
+      "title": "Full-Stack Developer — Inventory Management Application",
+      "organization": "Université Paris Cité — Bachelor’s project",
+      "description": "Designed an application enabling a company to manage inventory, customers, sales, orders and products using Django, Python and JavaScript."
+    },
+    "captcha": {
+      "period": "January – April 2022",
+      "title": "Full-Stack Developer — CAPTCHA System",
+      "organization": "Université Paris Cité — Academic project",
+      "description": "Developed a human-bot authentication mechanism based on a challenge-response system using PHP, SQL and JavaScript."
+    },
+    "tutoring": {
+      "period": "2017 – 2023",
+      "title": "Private Tutor",
+      "organization": "Self-employed",
+      "description": "Supported students by adapting explanations, exercises and learning pace to their individual needs and level."
+    }
+  },
+  "strengths": {
+    "badge": "Transferable skills",
+    "title": "What these experiences taught me",
+    "items": {
+      "functionalAnalysis": {
+        "title": "Functional analysis",
+        "description": "Understanding business requirements and translating them into configurations or technical requests."
+      },
+      "problemSolving": {
+        "title": "Problem solving",
+        "description": "Analyzing incidents, identifying their source and coordinating their resolution."
+      },
+      "clientRelations": {
+        "title": "Client relations",
+        "description": "Supporting users, structuring communication and monitoring priorities."
+      },
+      "internationalWork": {
+        "title": "International collaboration",
+        "description": "Working with technical and functional teams located across several countries."
+      }
+    }
   }
+},
+"Contact": {
+  "badge": "Contact",
+  "title": "Let’s discuss a Data opportunity or project.",
+  "description": "I am available to discuss opportunities in Data Analytics, Business Intelligence, Data Engineering or technical SaaS environments.",
+  "email": {
+    "label": "Email address"
+  },
+  "location": {
+    "label": "Location",
+    "value": "France"
+  },
+  "linkedinButton": "View my LinkedIn",
+  "githubButton": "View my GitHub",
+  "cta": {
+    "title": "Have an opportunity for me?",
+    "description": "Tell me about the role, its main responsibilities and the technologies involved. I will get back to you as soon as possible.",
+    "button": "Send me an email"
+  },
+  "availability": {
+    "title": "Availability",
+    "value": "Open to professional opportunities"
+  }
+}
 }

@@ -42,6 +42,112 @@
         "title": "Software Engineering",
         "description": "Projets structurés avec Git, Docker, tests automatisés et CI/CD."
       }
+    }   
+  },
+  "Projects": {
+"badge": "Portfolio",
+"title": "Mes projets Data & IA",
+"description": "Mes projets sont actuellement en cours de développement et seront ajoutés progressivement.",
+"comingSoonTitle": "Projets bientôt disponibles",
+"comingSoonDescription": "Je travaille actuellement sur plusieurs projets en Data Engineering, Business Intelligence et Intelligence Artificielle. Les démonstrations, architectures et dépôts GitHub seront publiés prochainement."
+},
+"Experiences": {
+  "badge": "Parcours professionnel",
+  "title": "Des expériences à l’intersection de la technologie, des métiers et de la relation client.",
+  "description": "Mon parcours m’a permis de travailler sur le déploiement de solutions SaaS, l’analyse fonctionnelle, le support client et le développement d’applications web.",
+  "summary": {
+    "label": "Expérience principale",
+    "value": "2 ans en environnement SaaS",
+    "description": "Alternance internationale dans le e-commerce, la logistique et la supply chain."
+  },
+  "status": {
+    "completed": "Expérience terminée",
+    "previous": "Expérience précédente"
+  },
+  "items": {
+    "anchanto": {
+      "period": "2024 – 2026",
+      "title": "Consultant Déploiement Junior",
+      "organization": "Anchanto — Alternance",
+      "description": "Participation au déploiement et au suivi de solutions SaaS dédiées au e-commerce, à la logistique et à la supply chain. Intervention sur les plateformes OMS, WMS et OXM, en lien avec les clients français et les équipes techniques et fonctionnelles internationales.",
+      "missions": {
+        "deployment": "Paramétrage et déploiement des solutions OMS, WMS et OXM.",
+        "testing": "Réalisation de tests fonctionnels et vérification des flux avant mise en production.",
+        "support": "Analyse et suivi des incidents clients dans Zendesk et Jira.",
+        "product": "Formalisation des demandes d’amélioration produit avec Aha!.",
+        "localization": "Adaptation des interfaces au marché français avec Crowdin et des fichiers JSON.",
+        "accountManagement": "Suivi des clients existants, priorisation des incidents et coordination interne."
+      }
+    },
+    "realEstate": {
+      "period": "Mai – Septembre 2023",
+      "title": "Développeur web",
+      "organization": "Le Pro de l’Immo",
+      "description": "Analyse des besoins du client, développement des fonctionnalités du site web, mise en ligne et vérification du bon fonctionnement de l’application après son déploiement."
+    },
+    "stockManagement": {
+      "period": "Janvier – Avril 2023",
+      "title": "Développeur Full Stack — Application de gestion de stock",
+      "organization": "Université Paris Cité — Projet de Licence 3",
+      "description": "Conception d’une application permettant à une entreprise de gérer son inventaire, ses clients, ses ventes, ses commandes et ses produits avec Django, Python et JavaScript."
+    },
+    "captcha": {
+      "period": "Janvier – Avril 2022",
+      "title": "Développeur Full Stack — Système CAPTCHA",
+      "organization": "Université Paris Cité — Projet de Licence 2",
+      "description": "Réalisation d’un mécanisme d’authentification humain-bot reposant sur un système de défi-réponse, développé avec PHP, SQL et JavaScript."
+    },
+    "tutoring": {
+      "period": "2017 – 2023",
+      "title": "Professeur particulier",
+      "organization": "Activité indépendante",
+      "description": "Accompagnement d’élèves avec adaptation des explications, des exercices et du rythme d’apprentissage à leurs besoins et à leur niveau."
+    }
+  },
+  "strengths": {
+    "badge": "Compétences transversales",
+    "title": "Ce que ces expériences m’ont appris",
+    "items": {
+      "functionalAnalysis": {
+        "title": "Analyse fonctionnelle",
+        "description": "Comprendre les besoins métier et les traduire en configurations ou demandes techniques."
+      },
+      "problemSolving": {
+        "title": "Résolution de problèmes",
+        "description": "Analyser les anomalies, qualifier leur origine et coordonner leur résolution."
+      },
+      "clientRelations": {
+        "title": "Relation client",
+        "description": "Accompagner les utilisateurs, structurer les échanges et suivre les priorités."
+      },
+      "internationalWork": {
+        "title": "Travail international",
+        "description": "Collaborer avec des équipes techniques et fonctionnelles situées dans plusieurs pays."
+      }
     }
   }
+},
+ "Contact": {
+  "badge": "Contact",
+  "title": "Échangeons sur une opportunité ou un projet Data.",
+  "description": "Je suis disponible pour échanger concernant un poste en Data Analytics, Business Intelligence, Data Engineering ou dans un environnement SaaS technique.",
+  "email": {
+    "label": "Adresse e-mail"
+  },
+  "location": {
+    "label": "Localisation",
+    "value": "France"
+  },
+  "linkedinButton": "Voir mon LinkedIn",
+  "githubButton": "Voir mon GitHub",
+  "cta": {
+    "title": "Une opportunité à me proposer ?",
+    "description": "Présentez-moi le contexte du poste, les principales missions et les technologies utilisées. Je vous répondrai dès que possible.",
+    "button": "M’envoyer un e-mail"
+  },
+  "availability": {
+    "title": "Disponibilité",
+    "value": "Ouvert aux opportunités professionnelles"
+  }
+}
 }
