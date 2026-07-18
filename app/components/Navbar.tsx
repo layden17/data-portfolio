@@ -1,17 +1,25 @@
-import Link from "next/link";
+"use client";
+import { useTranslations } from "next-intl";
+
+import { Link } from "@/i18n/navigation";
 import { Database } from "lucide-react";
 import LanguageSwitcher from "./LanguageSwitcher";
+import MobileMenu from "./MobileMenu";
 
-const links = [
-  { name: "Accueil", href: "/" },
-  { name: "À propos", href: "/about" },
-  { name: "Compétences", href: "/skills" },
-  { name: "Projets", href: "/projects" },
-  { name: "Expériences", href: "/experiences" },
-  { name: "Contact", href: "/contact" },
-];
+
 
 export default function Navbar() {
+     const t = useTranslations("Navigation");
+
+    const links = [
+        { name: t("home"), href: "/" },
+        { name: t("about"), href: "/about" },
+        { name: t("skills"), href: "/skills" },
+        { name: t("projects"), href: "/projects" },
+        { name: t("experiences"), href: "/experiences" },
+        { name: t("contact"), href: "/contact" },
+    ];
+
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/90 backdrop-blur">
       <div className="container flex min-h-20 items-center justify-between">
@@ -40,9 +48,15 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
         <LanguageSwitcher />
-        <Link href="/contact" className="button-primary">
-          Me contacter
+
+        <Link
+        href="/contact"
+        className="button-primary hidden lg:inline-flex whitespace-nowrap"
+        >
+        {t("contactButton")}
         </Link>
+
+        <MobileMenu />
         </div>
       </div>
     </header>

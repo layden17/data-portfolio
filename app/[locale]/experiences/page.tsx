@@ -6,6 +6,28 @@ import {
   GraduationCap,
 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+
+type PageProps = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "PageMetadata.experiences",
+  });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 type ExperienceKey =
   | "anchanto"

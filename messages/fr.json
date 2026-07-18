@@ -1,13 +1,4 @@
 {
-  "Navigation": {
-    "home": "Accueil",
-    "about": "À propos",
-    "skills": "Compétences",
-    "projects": "Projets",
-    "experiences": "Expériences",
-    "contact": "Contact",
-    "contactButton": "Me contacter"
-  },
   "Home": {
     "availability": "Recherche d’un CDI dans les métiers de la Data",
     "titleStart": "Je transforme les données en",
@@ -148,6 +139,188 @@
   "availability": {
     "title": "Disponibilité",
     "value": "Ouvert aux opportunités professionnelles"
+  }
+},
+"About": {
+  "badge": "À propos",
+  "title": "Un profil technique avec une forte compréhension des besoins métier.",
+  "paragraphs": {
+    "first": "Après une formation en informatique, j’ai poursuivi mon parcours à Epitech avec une spécialisation en Data et Intelligence Artificielle.",
+    "second": "Pendant deux années d’alternance chez Anchanto, j’ai évolué dans un environnement SaaS international spécialisé dans le e-commerce, la logistique et la supply chain.",
+    "third": "Cette expérience m’a permis de travailler sur le déploiement de solutions OMS, WMS et OXM, les tests fonctionnels, le support client, la résolution d’anomalies et l’amélioration continue des produits.",
+    "fourth": "Je souhaite désormais mettre cette double compétence technique et fonctionnelle au service de projets Data permettant de transformer les données en outils utiles à la prise de décision."
+  },
+  "experienceButton": "Voir mes expériences",
+  "cvButton": "Consulter mon CV",
+  "profile": {
+    "label": "Profil professionnel",
+    "title": "Data Analyst / Data Engineer",
+    "description": "Je m’intéresse aux projets couvrant l’ensemble du cycle de vie des données : collecte, transformation, stockage, analyse, visualisation et mise à disposition.",
+    "focusLabel": "Domaines",
+    "focusValue": "Data Analytics, BI, Data Engineering et IA",
+    "goalLabel": "Objectif",
+    "goalValue": "Intégrer un poste en CDI dans les métiers de la Data",
+    "locationLabel": "Localisation",
+    "locationValue": "France"
+  },
+  "highlights": {
+    "badge": "Points clés",
+    "title": "Une expérience technique, fonctionnelle et internationale",
+    "items": {
+      "education": {
+        "title": "Formation Data & IA",
+        "description": "Spécialisation en Data et Intelligence Artificielle dans le cadre de ma cinquième année à Epitech."
+      },
+      "experience": {
+        "title": "Deux ans en SaaS",
+        "description": "Expérience en déploiement, support fonctionnel, gestion client et amélioration produit chez Anchanto."
+      },
+      "data": {
+        "title": "Culture de la donnée",
+        "description": "Analyse des flux, vérification de la qualité des données et utilisation d’indicateurs pour le suivi opérationnel."
+      },
+      "international": {
+        "title": "Environnement international",
+        "description": "Collaboration régulière avec des équipes techniques et fonctionnelles basées dans plusieurs pays."
+      }
+    }
+  },
+  "approach": {
+    "badge": "Méthode de travail",
+    "title": "Une approche structurée des problèmes",
+    "steps": {
+      "understand": {
+        "title": "Comprendre",
+        "description": "Analyser le besoin métier, les contraintes et les données disponibles."
+      },
+      "build": {
+        "title": "Construire",
+        "description": "Concevoir une solution fiable, lisible et adaptée au contexte."
+      },
+      "deliver": {
+        "title": "Restituer",
+        "description": "Présenter les résultats de manière claire et utile aux utilisateurs."
+      }
+    }
+  }
+},
+"Skills": {
+  "badge": "Compétences",
+  "title": "Des compétences techniques et fonctionnelles au service des données.",
+  "description": "Mon parcours associe développement informatique, analyse de données, Business Intelligence, déploiement de solutions SaaS et compréhension des besoins métier.",
+  "objective": {
+    "label": "Positionnement",
+    "title": "Un profil Data polyvalent",
+    "description": "Capable d’intervenir de la préparation des données jusqu’à leur visualisation, tout en comprenant les contraintes opérationnelles des utilisateurs."
+  },
+  "categories": {
+    "data": {
+      "title": "Data Engineering",
+      "description": "Collecte, nettoyage, transformation, stockage et modélisation de données destinées à l’analyse."
+    },
+    "businessIntelligence": {
+      "title": "Business Intelligence",
+      "description": "Création d’indicateurs, de mesures DAX et de dashboards permettant de faciliter la prise de décision."
+    },
+    "artificialIntelligence": {
+      "title": "Machine Learning & IA",
+      "description": "Préparation des données, entraînement, évaluation et interprétation de modèles prédictifs."
+    },
+    "development": {
+      "title": "Développement",
+      "description": "Développement d’applications web et d’interfaces avec des technologies front-end et back-end."
+    },
+    "tools": {
+      "title": "Outils et qualité",
+      "description": "Utilisation d’outils de versionnement, conteneurisation, tests, gestion de tickets et suivi produit."
+    },
+    "functional": {
+      "title": "Compétences fonctionnelles",
+      "description": "Analyse des besoins, déploiement de solutions SaaS, tests, support utilisateur et amélioration continue."
+    }
+  },
+  "professional": {
+    "badge": "Compétences transversales",
+    "title": "Une approche professionnelle complète",
+    "description": "Mon alternance et mes projets m’ont permis de développer des compétences utiles dans les environnements techniques et orientés client.",
+    "items": {
+      "analysis": {
+        "title": "Esprit d’analyse",
+        "description": "Identifier l’origine d’un problème et comprendre son impact métier."
+      },
+      "communication": {
+        "title": "Communication",
+        "description": "Transmettre des informations claires aux équipes techniques, fonctionnelles et aux clients."
+      },
+      "organization": {
+        "title": "Organisation",
+        "description": "Suivre plusieurs demandes, priorités et actions en parallèle."
+      },
+      "autonomy": {
+        "title": "Autonomie",
+        "description": "Prendre en charge des missions et rechercher des solutions de manière proactive."
+      },
+      "clientRelations": {
+        "title": "Relation client",
+        "description": "Accompagner les utilisateurs et maintenir une communication régulière."
+      },
+      "international": {
+        "title": "Travail international",
+        "description": "Collaborer avec des équipes multiculturelles dans un environnement SaaS."
+      }
+    }
+  },
+  "method": {
+    "learn": {
+      "title": "Comprendre",
+      "description": "Étudier le besoin, le contexte métier, les données et les contraintes techniques."
+    },
+    "apply": {
+      "title": "Mettre en œuvre",
+      "description": "Construire une solution testée, documentée et adaptée au problème rencontré."
+    },
+    "improve": {
+      "title": "Améliorer",
+      "description": "Analyser les résultats, recueillir les retours et faire évoluer la solution."
+    }
+  }
+},
+"Navigation": {
+  "home": "Accueil",
+  "about": "À propos",
+  "skills": "Compétences",
+  "projects": "Projets",
+  "experiences": "Expériences",
+  "contact": "Contact",
+  "contactButton": "Me contacter",
+  "openMenu": "Ouvrir le menu",
+  "closeMenu": "Fermer le menu"
+},
+"Metadata": {
+  "name": "Lathan Tarmat",
+  "title": "Lathan Tarmat | Portfolio Data & IA",
+  "description": "Portfolio professionnel de Lathan Tarmat, spécialisé en Data Analytics, Business Intelligence, Data Engineering et Intelligence Artificielle."
+},
+"PageMetadata": {
+  "about": {
+    "title": "À propos",
+    "description": "Découvrez le parcours, la formation et le positionnement professionnel de Lathan Tarmat."
+  },
+  "skills": {
+    "title": "Compétences",
+    "description": "Compétences en Data Engineering, Business Intelligence, Machine Learning, développement et environnement SaaS."
+  },
+  "projects": {
+    "title": "Projets Data & IA",
+    "description": "Découvrez les projets Data, Business Intelligence et Intelligence Artificielle de Lathan Tarmat."
+  },
+  "experiences": {
+    "title": "Expériences",
+    "description": "Parcours professionnel en déploiement SaaS, support fonctionnel, relation client et développement."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Contactez Lathan Tarmat pour une opportunité professionnelle dans les métiers de la Data."
   }
 }
 }

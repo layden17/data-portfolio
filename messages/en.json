@@ -1,13 +1,4 @@
 {
-  "Navigation": {
-    "home": "Home",
-    "about": "About",
-    "skills": "Skills",
-    "projects": "Projects",
-    "experiences": "Experience",
-    "contact": "Contact",
-    "contactButton": "Contact me"
-  },
   "Home": {
     "availability": "Open to full-time opportunities in Data",
     "titleStart": "I transform data into",
@@ -148,6 +139,188 @@
   "availability": {
     "title": "Availability",
     "value": "Open to professional opportunities"
+  }
+},
+"About": {
+  "badge": "About me",
+  "title": "A technical profile with a strong understanding of business needs.",
+  "paragraphs": {
+    "first": "After studying computer science, I continued my education at Epitech with a specialization in Data and Artificial Intelligence.",
+    "second": "During a two-year apprenticeship at Anchanto, I worked in an international SaaS environment focused on e-commerce, logistics and supply chain operations.",
+    "third": "This experience allowed me to work on OMS, WMS and OXM deployments, functional testing, customer support, incident resolution and continuous product improvement.",
+    "fourth": "I now want to apply this combination of technical and functional skills to Data projects that turn information into useful decision-making tools."
+  },
+  "experienceButton": "View my experience",
+  "cvButton": "View my résumé",
+  "profile": {
+    "label": "Professional profile",
+    "title": "Data Analyst / Data Engineer",
+    "description": "I am interested in projects covering the entire data lifecycle: collection, transformation, storage, analysis, visualization and delivery.",
+    "focusLabel": "Focus areas",
+    "focusValue": "Data Analytics, BI, Data Engineering and AI",
+    "goalLabel": "Objective",
+    "goalValue": "Join a company in a full-time Data role",
+    "locationLabel": "Location",
+    "locationValue": "France"
+  },
+  "highlights": {
+    "badge": "Key highlights",
+    "title": "Technical, functional and international experience",
+    "items": {
+      "education": {
+        "title": "Data & AI education",
+        "description": "Specialization in Data and Artificial Intelligence during my fifth year at Epitech."
+      },
+      "experience": {
+        "title": "Two years in SaaS",
+        "description": "Experience in deployment, functional support, account management and product improvement at Anchanto."
+      },
+      "data": {
+        "title": "Data-driven mindset",
+        "description": "Analyzing data flows, checking data quality and using indicators for operational monitoring."
+      },
+      "international": {
+        "title": "International environment",
+        "description": "Regular collaboration with technical and functional teams located in several countries."
+      }
+    }
+  },
+  "approach": {
+    "badge": "Working method",
+    "title": "A structured approach to problem solving",
+    "steps": {
+      "understand": {
+        "title": "Understand",
+        "description": "Analyze business requirements, constraints and available data."
+      },
+      "build": {
+        "title": "Build",
+        "description": "Design a reliable, readable and context-appropriate solution."
+      },
+      "deliver": {
+        "title": "Deliver",
+        "description": "Present results clearly and make them useful to users."
+      }
+    }
+  }
+},
+"Skills": {
+  "badge": "Skills",
+  "title": "Technical and functional skills applied to Data projects.",
+  "description": "My background combines software development, data analysis, Business Intelligence, SaaS deployment and an understanding of business requirements.",
+  "objective": {
+    "label": "Positioning",
+    "title": "A versatile Data profile",
+    "description": "Able to work from data preparation to visualization while understanding users’ operational constraints."
+  },
+  "categories": {
+    "data": {
+      "title": "Data Engineering",
+      "description": "Collecting, cleaning, transforming, storing and modeling data for analytical purposes."
+    },
+    "businessIntelligence": {
+      "title": "Business Intelligence",
+      "description": "Creating indicators, DAX measures and dashboards to support decision-making."
+    },
+    "artificialIntelligence": {
+      "title": "Machine Learning & AI",
+      "description": "Preparing data, training, evaluating and interpreting predictive models."
+    },
+    "development": {
+      "title": "Software Development",
+      "description": "Developing web applications and interfaces with front-end and back-end technologies."
+    },
+    "tools": {
+      "title": "Tools and Quality",
+      "description": "Using version control, containers, testing, ticketing and product management tools."
+    },
+    "functional": {
+      "title": "Functional Skills",
+      "description": "Requirements analysis, SaaS deployment, testing, user support and continuous improvement."
+    }
+  },
+  "professional": {
+    "badge": "Transferable skills",
+    "title": "A complete professional approach",
+    "description": "My apprenticeship and projects helped me develop skills suited to technical and client-oriented environments.",
+    "items": {
+      "analysis": {
+        "title": "Analytical thinking",
+        "description": "Identifying the source of a problem and understanding its business impact."
+      },
+      "communication": {
+        "title": "Communication",
+        "description": "Sharing clear information with technical teams, functional teams and clients."
+      },
+      "organization": {
+        "title": "Organization",
+        "description": "Managing multiple requests, priorities and actions simultaneously."
+      },
+      "autonomy": {
+        "title": "Autonomy",
+        "description": "Taking ownership of tasks and proactively looking for solutions."
+      },
+      "clientRelations": {
+        "title": "Client relations",
+        "description": "Supporting users and maintaining regular professional communication."
+      },
+      "international": {
+        "title": "International teamwork",
+        "description": "Collaborating with multicultural teams in a SaaS environment."
+      }
+    }
+  },
+  "method": {
+    "learn": {
+      "title": "Understand",
+      "description": "Study the requirement, business context, available data and technical constraints."
+    },
+    "apply": {
+      "title": "Implement",
+      "description": "Build a tested, documented solution suited to the identified problem."
+    },
+    "improve": {
+      "title": "Improve",
+      "description": "Analyze results, collect feedback and continuously enhance the solution."
+    }
+  }
+},
+"Navigation": {
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "projects": "Projects",
+  "experiences": "Experience",
+  "contact": "Contact",
+  "contactButton": "Contact me",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu"
+},
+"Metadata": {
+  "name": "Lathan Tarmat",
+  "title": "Lathan Tarmat | Data & AI Portfolio",
+  "description": "Professional portfolio of Lathan Tarmat, specializing in Data Analytics, Business Intelligence, Data Engineering and Artificial Intelligence."
+},
+"PageMetadata": {
+  "about": {
+    "title": "About",
+    "description": "Discover Lathan Tarmat's background, education and professional positioning."
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Skills in Data Engineering, Business Intelligence, Machine Learning, software development and SaaS environments."
+  },
+  "projects": {
+    "title": "Data & AI Projects",
+    "description": "Explore Lathan Tarmat's Data, Business Intelligence and Artificial Intelligence projects."
+  },
+  "experiences": {
+    "title": "Experience",
+    "description": "Professional background in SaaS deployment, functional support, client relations and development."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Contact Lathan Tarmat regarding professional opportunities in Data-related roles."
   }
 }
 }

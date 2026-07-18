@@ -1,161 +1,213 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowRight, GraduationCap, MapPin, Target } from "lucide-react";
+import {
+  ArrowRight,
+  BrainCircuit,
+  BriefcaseBusiness,
+  Database,
+  Download,
+  GraduationCap,
+  Languages,
+} from "lucide-react";
+import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "À propos",
-  description:
-    "Découvrez mon parcours, ma formation et mes objectifs professionnels dans les métiers de la Data.",
+import { Link } from "@/i18n/navigation";
+
+type PageProps = {
+  params: Promise<{ locale: string }>;
 };
 
-const informations = [
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+
+  const t = await getTranslations({
+    locale,
+    namespace: "PageMetadata.about",
+  });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
+
+const highlights = [
   {
-    label: "Formation",
-    value: "Epitech — spécialisation Data & Intelligence Artificielle",
+    key: "education",
     icon: GraduationCap,
   },
   {
-    label: "Localisation",
-    value: "France",
-    icon: MapPin,
+    key: "experience",
+    icon: BriefcaseBusiness,
   },
   {
-    label: "Objectif",
-    value: "CDI en Data Analytics, BI ou Data Engineering",
-    icon: Target,
+    key: "data",
+    icon: Database,
+  },
+  {
+    key: "international",
+    icon: Languages,
   },
 ];
 
 export default function AboutPage() {
+  const t = useTranslations("About");
+
   return (
     <section className="section">
       <div className="container">
         <span className="inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700">
-          À propos de moi
+          {t("badge")}
         </span>
 
-        <div className="mt-8 grid gap-12 lg:grid-cols-[1.15fr_0.85fr]">
+        <div className="mt-8 grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
-            <h1 className="section-title">
-              Un profil technique orienté données et résolution de problèmes.
-            </h1>
+            <h1 className="section-title">{t("title")}</h1>
 
             <div className="mt-8 space-y-6 text-lg leading-8 text-slate-600">
-              <p>
-                Après une formation en informatique, j’ai choisi de me
-                spécialiser en Data et Intelligence Artificielle durant ma
-                cinquième année à Epitech.
-              </p>
-
-              <p>
-                Je développe des projets couvrant l’ensemble du cycle de vie des
-                données : ingestion, nettoyage, validation, stockage,
-                modélisation, analyse, visualisation et déploiement.
-              </p>
-
-              <p>
-                J’accorde une attention particulière à la qualité du code, à la
-                fiabilité des données et à la création de solutions réellement
-                utiles aux équipes métier.
-              </p>
-
-              <p>
-                Mon objectif est d’intégrer une entreprise dans laquelle je
-                pourrai contribuer à des projets Data concrets, tout en
-                continuant à développer mes compétences techniques.
-              </p>
+              <p>{t("paragraphs.first")}</p>
+              <p>{t("paragraphs.second")}</p>
+              <p>{t("paragraphs.third")}</p>
+              <p>{t("paragraphs.fourth")}</p>
             </div>
 
             <div className="mt-10 flex flex-wrap gap-4">
-              <Link href="/projects" className="button-primary">
-                Découvrir mes projets
+              <Link href="/experiences" className="button-primary">
+                {t("experienceButton")}
                 <ArrowRight size={19} />
               </Link>
 
               <a
                 href="/cv/CV-Lathan-Tarmat.pdf"
                 target="_blank"
+                rel="noreferrer"
                 className="button-secondary"
               >
-                Consulter mon CV
+                {t("cvButton")}
+                <Download size={19} />
               </a>
             </div>
           </div>
 
           <aside className="card h-fit p-8">
-            <p className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">
-              Informations
+            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-600 text-white">
+              <BrainCircuit size={26} />
+            </div>
+
+            <p className="mt-6 text-sm font-bold uppercase tracking-widest text-blue-600">
+              {t("profile.label")}
             </p>
 
-            <div className="mt-7 space-y-7">
-              {informations.map((information) => {
-                const Icon = information.icon;
+            <h2 className="mt-3 text-3xl font-black text-slate-950">
+              {t("profile.title")}
+            </h2>
 
-                return (
-                  <div
-                    key={information.label}
-                    className="flex items-start gap-4"
-                  >
-                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
-                      <Icon size={21} />
-                    </div>
+            <p className="mt-5 leading-7 text-slate-600">
+              {t("profile.description")}
+            </p>
 
-                    <div>
-                      <p className="text-sm font-medium text-slate-500">
-                        {information.label}
-                      </p>
+            <div className="mt-8 space-y-5 border-t border-slate-200 pt-7">
+              <div>
+                <p className="text-sm font-semibold text-slate-500">
+                  {t("profile.focusLabel")}
+                </p>
 
-                      <p className="mt-1 font-bold leading-6 text-slate-900">
-                        {information.value}
-                      </p>
-                    </div>
-                  </div>
-                );
-              })}
+                <p className="mt-1 font-black text-slate-950">
+                  {t("profile.focusValue")}
+                </p>
+              </div>
+
+              <div>
+                <p className="text-sm font-semibold text-slate-500">
+                  {t("profile.goalLabel")}
+                </p>
+
+                <p className="mt-1 font-black text-slate-950">
+                  {t("profile.goalValue")}
+                </p>
+              </div>
+
+              <div>
+                <p className="text-sm font-semibold text-slate-500">
+                  {t("profile.locationLabel")}
+                </p>
+
+                <p className="mt-1 font-black text-slate-950">
+                  {t("profile.locationValue")}
+                </p>
+              </div>
             </div>
           </aside>
         </div>
 
-        <div className="mt-20 grid gap-6 md:grid-cols-3">
-          <article className="card p-7">
-            <p className="text-3xl font-black text-blue-600">01</p>
+        <section className="mt-20">
+          <p className="text-sm font-bold uppercase tracking-widest text-blue-600">
+            {t("highlights.badge")}
+          </p>
 
-            <h2 className="mt-5 text-xl font-black">
-              Comprendre les données
-            </h2>
+          <h2 className="mt-4 text-3xl font-black text-slate-950">
+            {t("highlights.title")}
+          </h2>
 
-            <p className="mt-3 leading-7 text-slate-600">
-              Identifier les problèmes de qualité, les variables importantes et
-              les besoins métier.
-            </p>
-          </article>
+          <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+            {highlights.map((highlight) => {
+              const Icon = highlight.icon;
 
-          <article className="card p-7">
-            <p className="text-3xl font-black text-blue-600">02</p>
+              return (
+                <article key={highlight.key} className="card p-7">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
+                    <Icon size={23} />
+                  </div>
 
-            <h2 className="mt-5 text-xl font-black">
-              Construire une solution
-            </h2>
+                  <h3 className="mt-6 text-xl font-black text-slate-950">
+                    {t(`highlights.items.${highlight.key}.title`)}
+                  </h3>
 
-            <p className="mt-3 leading-7 text-slate-600">
-              Développer des pipelines, des modèles de données et des analyses
-              fiables.
-            </p>
-          </article>
+                  <p className="mt-3 leading-7 text-slate-600">
+                    {t(`highlights.items.${highlight.key}.description`)}
+                  </p>
+                </article>
+              );
+            })}
+          </div>
+        </section>
 
-          <article className="card p-7">
-            <p className="text-3xl font-black text-blue-600">03</p>
+        <section className="mt-20">
+          <div className="card grid gap-8 p-8 md:p-10 lg:grid-cols-[0.8fr_1.2fr]">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-widest text-blue-600">
+                {t("approach.badge")}
+              </p>
 
-            <h2 className="mt-5 text-xl font-black">
-              Restituer les résultats
-            </h2>
+              <h2 className="mt-4 text-3xl font-black text-slate-950">
+                {t("approach.title")}
+              </h2>
+            </div>
 
-            <p className="mt-3 leading-7 text-slate-600">
-              Présenter les indicateurs de manière claire grâce aux dashboards
-              et aux visualisations.
-            </p>
-          </article>
-        </div>
+            <div className="grid gap-5 md:grid-cols-3">
+              {["understand", "build", "deliver"].map((step, index) => (
+                <div
+                  key={step}
+                  className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
+                >
+                  <p className="text-2xl font-black text-blue-600">
+                    0{index + 1}
+                  </p>
+
+                  <h3 className="mt-4 font-black text-slate-950">
+                    {t(`approach.steps.${step}.title`)}
+                  </h3>
+
+                  <p className="mt-2 text-sm leading-6 text-slate-600">
+                    {t(`approach.steps.${step}.description`)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
       </div>
     </section>
   );
