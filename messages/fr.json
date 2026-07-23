@@ -35,13 +35,6 @@
       }
     }   
   },
-  "Projects": {
-"badge": "Portfolio",
-"title": "Mes projets Data & IA",
-"description": "Mes projets sont actuellement en cours de développement et seront ajoutés progressivement.",
-"comingSoonTitle": "Projets bientôt disponibles",
-"comingSoonDescription": "Je travaille actuellement sur plusieurs projets en Data Engineering, Business Intelligence et Intelligence Artificielle. Les démonstrations, architectures et dépôts GitHub seront publiés prochainement."
-},
 "Experiences": {
   "badge": "Parcours professionnel",
   "title": "Des expériences à l’intersection de la technologie, des métiers et de la relation client.",
@@ -322,5 +315,31 @@
     "title": "Contact",
     "description": "Contactez Lathan Tarmat pour une opportunité professionnelle dans les métiers de la Data."
   }
-}
+},
+"Projects": {
+    "badge": "Portfolio",
+    "title": "Mes projets",
+    "description": "Des projets complets qui combinent data engineering, analyse, visualisation et intelligence artificielle.",
+    "retailAnalytics": {
+      "status": "Projet terminé",
+      "category": "Data Engineering & Business Intelligence",
+      "title": "Retail Analytics Power BI Platform",
+      "description": "Une plateforme analytique de bout en bout construite à partir des données e-commerce Olist. Le projet couvre le nettoyage des données avec Python, leur stockage dans PostgreSQL, la création d’un modèle en étoile et la conception d’un dashboard Power BI interactif.",
+      "imageAlt": "Aperçu du dashboard Retail Analytics réalisé avec Power BI",
+      "metrics": {
+        "rows": "lignes traitées",
+        "pages": "pages Power BI",
+        "automation": "tests automatisés"
+      },
+      "highlightsTitle": "Points clés",
+      "highlights": {
+        "pipeline": "Pipeline Python reproductible pour nettoyer et transformer 112 650 lignes.",
+        "model": "Base PostgreSQL organisée selon un modèle dimensionnel en étoile.",
+        "dashboard": "Dashboard Power BI de cinq pages consacré aux ventes, produits, clients et livraisons.",
+        "validation": "KPI validés avec SQL, tests Pytest et workflow GitHub Actions."
+      },
+      "github": "Voir sur GitHub",
+      "preview": "Voir le dashboard"
+    }
+  }
 }

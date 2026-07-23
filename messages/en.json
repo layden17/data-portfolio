@@ -5,7 +5,7 @@
     "titleHighlight": "valuable business solutions",
     "description": "Specialized in Data and Artificial Intelligence, I build data pipelines, analytical solutions, predictive models and dashboards that support business decision-making.",
     "projectsButton": "View my projects",
-    "cvButton": "Download my résumé",
+    "cvButton": "Download my CV",
     "profile": "Profile",
     "jobTitle": "Data Analyst / Data Engineer",
     "educationLabel": "Education",
@@ -34,22 +34,6 @@
         "description": "Building structured projects with Git, Docker, automated testing and CI/CD."
       }
     }
-  },
-    "Projects": {
-    "badge": "Portfolio",
-    "title": "My Data & AI projects",
-    "description": "My projects are currently under development and will be added progressively.",
-    "comingSoonTitle": "Projects coming soon",
-    "comingSoonDescription": "I am currently working on several projects in Data Engineering, Business Intelligence and Artificial Intelligence. Demos, architectures and GitHub repositories will be published soon."
-    },
-    "Experiences": {
-  "badge": "Professional background",
-  "title": "Experience at the intersection of technology, business operations and client relations.",
-  "description": "My background includes SaaS deployment, functional analysis, customer support and web application development.",
-  "summary": {
-    "label": "Main experience",
-    "value": "2 years in a SaaS environment",
-    "description": "International apprenticeship in e-commerce, logistics and supply chain."
   },
   "status": {
     "completed": "Completed experience",
@@ -116,8 +100,7 @@
         "description": "Working with technical and functional teams located across several countries."
       }
     }
-  }
-},
+  },
 "Contact": {
   "badge": "Contact",
   "title": "Let’s discuss a Data opportunity or project.",
@@ -322,5 +305,31 @@
     "title": "Contact",
     "description": "Contact Lathan Tarmat regarding professional opportunities in Data-related roles."
   }
-}
+},
+  "Projects": {
+    "badge": "Portfolio",
+    "title": "My projects",
+    "description": "End-to-end projects combining data engineering, analytics, visualization and artificial intelligence.",
+    "retailAnalytics": {
+      "status": "Completed project",
+      "category": "Data Engineering & Business Intelligence",
+      "title": "Retail Analytics Power BI Platform",
+      "description": "An end-to-end analytics platform built from the Olist e-commerce dataset. The project covers Python data cleaning, PostgreSQL storage, star schema modelling and the creation of an interactive Power BI dashboard.",
+      "imageAlt": "Preview of the Retail Analytics dashboard created with Power BI",
+      "metrics": {
+        "rows": "rows processed",
+        "pages": "Power BI pages",
+        "automation": "automated testing"
+      },
+      "highlightsTitle": "Key highlights",
+      "highlights": {
+        "pipeline": "Reproducible Python pipeline used to clean and transform 112,650 rows.",
+        "model": "PostgreSQL database structured with a dimensional star schema.",
+        "dashboard": "Five-page Power BI dashboard covering sales, products, customers and deliveries.",
+        "validation": "KPIs validated with SQL, Pytest tests and a GitHub Actions workflow."
+      },
+      "github": "View on GitHub",
+      "preview": "View dashboard"
+    }
+  }
 }

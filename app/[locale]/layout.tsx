@@ -33,7 +33,7 @@ export async function generateMetadata({
   });
 
   return {
-    metadataBase: new URL("https://TON-DOMAINE.vercel.app"),
+    metadataBase: new URL("https://data-portfolio-gold-six.vercel.app/fr"),
 
     title: {
       default: t("title"),
